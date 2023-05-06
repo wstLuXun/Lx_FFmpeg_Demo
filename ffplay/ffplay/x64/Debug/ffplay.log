@@ -1,0 +1,54 @@
+﻿  cmdutils.c
+C:\Users\wst\Desktop\ffplay\ffplay\ffmpeg\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\wst\Desktop\ffplay\ffplay\ffmpeg\include\libavutil\wchar_filename.h(215,9): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wst\Desktop\ffplay\ffplay\ffmpeg\include\libavutil\wchar_filename.h(216,9): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wst\Desktop\ffplay\ffplay\ffmpeg\include\libavutil\wchar_filename.h(224,9): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wst\Desktop\ffplay\ffplay\ffmpeg\include\libavutil\wchar_filename.h(225,9): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wst\Desktop\ffplay\ffplay\ffmpeg\include\libavutil\getenv_utf8.h(41,13): warning C4996: '_wgetenv': This function or variable may be unsafe. Consider using _wdupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wst\Desktop\ffplay\ffplay\cmdutils.c(82,21): warning C4133: “函数”: 从“char [1]”到“LPCWSTR”的类型不兼容
+C:\Users\wst\Desktop\ffplay\ffplay\cmdutils.c(288,23): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\cmdutils.c(290,88): warning C4305: “函数”: 从“__int64”到“double”截断
+C:\Users\wst\Desktop\ffplay\ffplay\cmdutils.c(290,27): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\cmdutils.c(294,25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\cmdutils.c(964,19): warning C4018: “<”: 有符号/无符号不匹配
+  ffplay.c
+C:\Users\wst\Desktop\ffplay\ffplay\ffmpeg\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(871,25): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(872,25): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(968,35): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(1059,54): warning C4244: “-=”: 从“int64_t”转换到“int”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(1146,54): warning C4244: “=”: 从“double”转换到“FFTSample”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(1160,29): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(1161,57): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(1182,42): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(1631,43): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(1811,19): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(1834,19): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(2418,33): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(2543,42): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(2826,19): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3203,32): warning C4244: “函数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3220,19): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3230,11): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3213,40): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3331,35): warning C4244: “=”: 从“int64_t”转换到“double”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3333,35): warning C4244: “=”: 从“int64_t”转换到“double”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3335,35): warning C4244: “=”: 从“int64_t”转换到“double”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3341,49): warning C4244: “函数”: 从“double”转换到“int64_t”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3341,54): warning C4244: “函数”: 从“double”转换到“int64_t”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3388,51): warning C4244: “函数”: 从“double”转换到“int64_t”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3393,53): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3398,33): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3405,31): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3436,20): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\wst\Desktop\ffplay\ffplay\ffplay.c(3442,21): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  opt_common.c
+C:\Users\wst\Desktop\ffplay\ffplay\ffmpeg\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\wst\Desktop\ffplay\ffplay\opt_common.c(229,17): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wst\Desktop\ffplay\ffplay\opt_common.c(233,21): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wst\Desktop\ffplay\ffplay\opt_common.c(816,27): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\wst\Desktop\ffplay\ffplay\opt_common.c(1142,10): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wst\Desktop\ffplay\ffplay\opt_common.c(1187,19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\wst\Desktop\ffplay\ffplay\opt_common.c(1191,30): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+  ffplay.vcxproj -> C:\Users\wst\Desktop\ffplay\ffplay\ffmpeg\lib\ffplay.exe
