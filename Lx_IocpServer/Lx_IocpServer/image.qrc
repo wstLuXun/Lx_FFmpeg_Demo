@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ico/2.png</file>
+        <file>ico/3.png</file>
+        <file>ico/4.png</file>
+        <file>ico/QSS.txt</file>
+        <file>ico/picturewall/1.png</file>
+        <file>ico/picturewall/2.png</file>
+        <file>ico/picturewall/3.png</file>
+        <file>ico/picturewall/4.png</file>
+        <file>ico/picturewall/5.png</file>
+        <file>ico/picturewall/6.png</file>
+        <file>ico/picturewall/7.png</file>
+        <file>ico/picturewall/8.png</file>
+        <file>ico/picturewall/9.png</file>
+        <file>ico/picturewall/10.png</file>
+        <file>ico/image/55.png</file>
+        <file>ico/image/close.png</file>
+        <file>ico/image/maximize1.png</file>
+        <file>ico/image/maximize2.png</file>
+        <file>ico/image/minimize.png</file>
+        <file>ico/image/222.png</file>
+        <file>ico/socket/avatar1.png</file>
+        <file>ico/socket/avatar2.png</file>
+        <file>ico/socket/lahei.png</file>
+        <file>ico/socket/message.png</file>
+        <file>ico/image/00.png</file>
+        <file>ico/image/11.png</file>
+        <file>ico/image/99.png</file>
+    </qresource>
+</RCC>

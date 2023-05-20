@@ -1,0 +1,38 @@
+class Lx_State{
+public
+   Lx_State(){
+     stop=false;
+     pause=false;
+   }
+
+void setStop(bool stop){
+   mutex.lock();
+   this->stop=stop;
+   mutex.unlock();
+}
+
+void setPause(bool pause){
+   mutex.lock();
+   
+   mutex.unlock();
+}
+
+bool setStop(){
+   mutex.lock();
+
+   mutex.unlock();
+}
+
+bool setPause(){
+   mutex.lock();
+
+   mutex.unlock();
+}
+private:
+   bool stop;
+   bool pause;
+
+   QMutex mutex;
+   QWaitCondition cond;
+}
+ 
