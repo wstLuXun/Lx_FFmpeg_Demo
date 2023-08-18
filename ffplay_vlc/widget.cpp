@@ -1,6 +1,6 @@
 #include "widget.h"
 #include "ui_widget.h"
-
+#include <QResizeEvent>
 #include <windows.h>
 #include "QDebug"
 #include <QFileDialog>
@@ -73,7 +73,7 @@ void Widget::on_btn_open_clicked()
 #ifdef vlc_64
    //文件路径获得媒体Media
     Media = libvlc_media_new_path(array.data());
-    if(Media) this->setWindowTitle(path);
+
     //方式一创建获得播放器
     //媒体创建获得播放器
     //Player = libvlc_media_player_new_from_media (Instance,Media);
@@ -91,11 +91,14 @@ Media=0;
 
 #ifdef vlc_32
     //32位
-    //vlcMedia = libvlc_media_new_path(vlcInstance, array.data());
+    Media = libvlc_media_new_path(Instance, array.data());
     //32位
-    //vlcPlayer = libvlc_media_player_new_from_media (vlcMedia);
+    //Player = libvlc_media_player_new_from_media (Media);
+    libvlc_media_player_set_media(Player,Media);
+    libvlc_media_release(Media);
 #endif
 
+    if(Media) this->setWindowTitle(path);
 
 
     if(Player){
@@ -124,10 +127,19 @@ Media=0;
 void Widget::on_time_slider_sliderReleased()
 {
     int time=ui->time_slider->value()*1000;
+
     if(Player){
+#ifdef vlc_64
        if(!libvlc_media_player_set_time(Player,time,false))
           qDebug()<<"seek成功";
-    }
+#endif
+
+#ifdef vlc_32
+    libvlc_media_player_set_time(Player,time);
+#endif
+}
+
+
     ismove=false;
 }
 
@@ -176,6 +188,16 @@ void Widget::on_btn_pause_clicked()
 
 }
 
+#ifdef vlc_64
+
+void Widget::resizeEvent(QResizeEvent *event)
+{
+    //vlc  64位的bug
+    ui->video_widget->hide();
+    ui->video_widget->show();
+   return  QWidget::resizeEvent(event);
+}
+#endif
 
 
 

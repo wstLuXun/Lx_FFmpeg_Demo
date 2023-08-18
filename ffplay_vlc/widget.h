@@ -33,7 +33,10 @@ private slots:
 
     void on_btn_pause_clicked();
 
-
+#ifdef vlc_64
+protected:
+void resizeEvent(QResizeEvent *event);
+#endif
 
 private:
     Ui::Widget *ui;
