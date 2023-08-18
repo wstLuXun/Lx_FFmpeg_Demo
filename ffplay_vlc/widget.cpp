@@ -98,10 +98,9 @@ Media=0;
     libvlc_media_release(Media);
 #endif
 
-    if(Media) this->setWindowTitle(path);
-
-
+    
     if(Player){
+        this->setWindowTitle(path);
       //libvlc_video_set_callbacks 回调获取每一帧
       //不能拿多个播放器对象关联同一个窗口上,血坑(播放器对象播放完之后删除  重新new播放器对象 再次关联这个窗口对象 此操作会导致播放失败)
         //按照可以播放 播放器对象和窗口对象一一对应思路,可播放多路视频
